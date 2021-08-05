@@ -1,0 +1,15 @@
+{
+  "name": "rabbitmq",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/iril21/rabbitmq.git",
+  "author": "Ilias Irhboula <ilias.irhboula@octo.com>",
+  "license": "MIT",
+  "scripts": {
+    "publisher": "node publisher.js",
+    "consumer": "node consumer.js"
+  },
+  "dependencies": {
+    "amqplib": "^0.8.0"
+  }
+}
