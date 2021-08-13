@@ -1,60 +1,72 @@
-const amqp = require('amqplib/callback_api')
+const amqp = require('amqplib')
 const fs = require('fs')
 
 const args = process.argv.slice(2)
+const exchange = 'exchange'
+const queueName = args[0]
+const bindingKey = args[1] || 'feuilleDeGarde'
+let connection
+let channel
+let queue
+let nombreTotalMessagesRecus = 0
 
 if (args.length === 0) {
     process.exit(1)
 }
 
-amqp.connect('amqp://localhost', (error0, connection) => {
-    if (error0) {
-        console.error(`Failed to connect (${error0.message})`);
+async function receive() {
+    try {
+        connection = await amqp.connect('amqp://localhost')
+    } catch (error) {
+        console.error(`Failed to connect (${error.message})`)
         return
     }
-    connection.createChannel((error1, channel) => {
-        if (error1) {
-            console.error(`Failed to create a channel (${error1.message})`)
-            return
-        }
-        channel.prefetch(100)
 
-        const exchange = 'exchange'
-        const queueName = args[0]
-        const bindingKey = args[1] || 'feuilleDeGarde'
+    try {
+        channel = await connection.createChannel()
+    } catch (error) {
+        console.error(`Failed to create a channel (${error.message})`)
+        return
+    }
 
-        channel.assertExchange(exchange, 'direct', {
-            durable: true
-        })
+    channel.prefetch(10000)
 
-        channel.assertQueue(queueName, {
+    channel.assertExchange(exchange, 'direct', {
+        durable: true
+    })
+
+    try {
+        queue = await channel.assertQueue(queueName, {
             exclusive: false,
             durable: true,
             maxLength: 1000,
             messageTtl: 60000,
             queueMode: 'lazy'
-        }, (error2, q) => {
-            if (error2) {
-                console.error(`Failed to create a queue (${error2.message})`);
-                return
-            }
-            console.log('Waiting for messages. To exit press CTRL+C')
-            channel.bindQueue(q.queue, exchange, bindingKey)
-
-            let count = 0
-            channel.consume(q.queue, (msg) => {
-                console.log(" Received from %s", msg.fields.routingKey)
-                setTimeout(() => {
-                    fs.writeFile(`${__dirname}/data/feuille-de-garde-out-${Date.now()}.json`, msg.content.toString(), (err) => {
-                        if (err)  console.log(err)
-                        channel.ack(msg)
-                    })
-                    count++
-                    console.log(count)
-                }, 0)
-            }, {
-                noAck: false
-            })
         })
-    })
-})
+    } catch (error) {
+        console.error(`Failed to create a queue (${error.message})`)
+        return
+    }
+
+    console.log('Waiting for messages. To exit press CTRL+C')
+    channel.bindQueue(queue.queue, exchange, bindingKey)
+
+    try {
+        channel.consume(queue.queue, (msg) => {
+            console.log(" Received from %s", msg.fields.routingKey)
+                // fs.writeFile(`${__dirname}/data/feuille-de-garde-out-${Date.now()}.json`, msg.content.toString(), (err) => {
+                //     if (err)  console.log(err)
+                //     channel.ack(msg)
+                // })
+                channel.ack(msg)
+                nombreTotalMessagesRecus++
+                console.log(`nombre total de messages recus ${nombreTotalMessagesRecus}`)
+        }, {
+            noAck: false
+        })
+    } catch (error) {
+        console.log(`couldn't consume ${error.message}`)
+    }
+}
+
+receive()

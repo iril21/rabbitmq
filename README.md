@@ -66,6 +66,8 @@
 
 - Qu'est ce qui se passe si la taille du message dépasse la taille maximale autorisée par rabbitMq (128MB) ?
 
+- Une perte de messages est constatée avec un test de >20000 feuilles de gardes avec des messages de 250 feuilles de garde lorsque ferme la connection du publisher directement après la fin du dernier publish sans avoir d'exceptions ni d'erreur dans les logs du broker et pas visibles sur l'ui management ? En augmentant le délai de fermeture de la connection du publisher ça résout le problème
+
 
 - Architecture des queues :
     * une queue ou plusieurs queues par type de messages
