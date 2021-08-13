@@ -1,0 +1,1086 @@
+[
+  {
+    "niveau": "NOMINALE",
+    "codeMission": "ALIM LG",
+    "competencesMissions": [
+      "CA ALIM LG",
+      "EQ ALIM LG",
+      "EQ ALIM LG"
+    ]
+  },
+  {
+    "niveau": "DEGRADEE",
+    "codeMission": "ALIM LG",
+    "competencesMissions": [
+      "CA ALIM LG",
+      "EQ ALIM LG"
+    ]
+  },
+  {
+    "niveau": "NOMINALE",
+    "codeMission": "ALIM TLG",
+    "competencesMissions": [
+      "CA ALIM TLG",
+      "EQ ALIM TLG",
+      "EQ ALIM TLG"
+    ]
+  },
+  {
+    "niveau": "DEGRADEE",
+    "codeMission": "ALIM TLG",
+    "competencesMissions": [
+      "CA ALIM TLG",
+      "EQ ALIM TLG"
+    ]
+  },
+  {
+    "niveau": "NOMINALE",
+    "codeMission": "AMB",
+    "competencesMissions": [
+      "CA SUAP",
+      "EQ SUAP",
+      "EQ SUAP"
+    ]
+  },
+  {
+    "niveau": "DEGRADEE",
+    "codeMission": "AMB",
+    "competencesMissions": [
+      "CA SUAP",
+      "EQ SUAP"
+    ]
+  },
+  {
+    "niveau": "NOMINALE",
+    "codeMission": "AQUA",
+    "competencesMissions": [
+      "SAL2",
+      "SAL1",
+      "SAL1"
+    ]
+  },
+  {
+    "niveau": "DEGRADEE",
+    "codeMission": "AQUA",
+    "competencesMissions": [
+      "SAL1"
+    ]
+  },
+  {
+    "niveau": "NOMINALE",
+    "codeMission": "ASSIST",
+    "competencesMissions": [
+      "CA SUAP",
+      "EQ SUAP"
+    ]
+  },
+  {
+    "niveau": "DEGRADEE",
+    "codeMission": "ASSIST",
+    "competencesMissions": [
+      "CA SUAP",
+      "EQ SUAP"
+    ]
+  },
+  {
+    "niveau": "NOMINALE",
+    "codeMission": "BIO",
+    "competencesMissions": [
+      "RCH2",
+      "RCH1",
+      "RCH1"
+    ]
+  },
+  {
+    "niveau": "DEGRADEE",
+    "codeMission": "BIO",
+    "competencesMissions": [
+      "RCH2",
+      "RCH1"
+    ]
+  },
+  {
+    "niveau": "NOMINALE",
+    "codeMission": "PCC",
+    "competencesMissions": [
+      "CA PCC",
+      "EQ PCC"
+    ]
+  },
+  {
+    "niveau": "DEGRADEE",
+    "codeMission": "PCC",
+    "competencesMissions": [
+      "CA PCC",
+      "EQ PCC"
+    ]
+  },
+  {
+    "niveau": "NOMINALE",
+    "codeMission": "CDG",
+    "competencesMissions": [
+      "GOC3"
+    ]
+  },
+  {
+    "niveau": "NOMINALE",
+    "codeMission": "CYNO",
+    "competencesMissions": [
+      "CYNO"
+    ]
+  },
+  {
+    "niveau": "NOMINALE",
+    "codeMission": "DDSIS",
+    "competencesMissions": [
+      "DDSIS"
+    ]
+  },
+  {
+    "niveau": "DEGRADEE",
+    "codeMission": "DDSIS",
+    "competencesMissions": [
+      "DDASIS"
+    ]
+  },
+  {
+    "niveau": "NOMINALE",
+    "codeMission": "DECONTA",
+    "competencesMissions": [
+      "CA DECONTA",
+      "EQ DECONTA",
+      "EQ DECONTA"
+    ]
+  },
+  {
+    "niveau": "DEGRADEE",
+    "codeMission": "DECONTA",
+    "competencesMissions": [
+      "CA DECONTA",
+      "EQ DECONTA"
+    ]
+  },
+  {
+    "niveau": "NOMINALE",
+    "codeMission": "DENOMB",
+    "competencesMissions": [
+      "CA DENOMB",
+      "EQ DENOMB",
+      "EQ DENOMB"
+    ]
+  },
+  {
+    "niveau": "DEGRADEE",
+    "codeMission": "DENOMB",
+    "competencesMissions": [
+      "CA DENOMB",
+      "EQ DENOMB"
+    ]
+  },
+  {
+    "niveau": "NOMINALE",
+    "codeMission": "DEPOL AIR",
+    "competencesMissions": [
+      "CA DEPOL AIR",
+      "EQ DEPOL AIR",
+      "EQ DEPOL AIR"
+    ]
+  },
+  {
+    "niveau": "DEGRADEE",
+    "codeMission": "DEPOL AIR",
+    "competencesMissions": [
+      "CA DEPOL AIR",
+      "EQ DEPOL AIR"
+    ]
+  },
+  {
+    "niveau": "NOMINALE",
+    "codeMission": "DEPOL AQUA",
+    "competencesMissions": [
+      "CA DEPOL AQUA",
+      "EQ DEPOL AQUA",
+      "EQ DEPOL AQUA"
+    ]
+  },
+  {
+    "niveau": "DEGRADEE",
+    "codeMission": "DEPOL AQUA",
+    "competencesMissions": [
+      "CA DEPOL AQUA",
+      "EQ DEPOL AQUA"
+    ]
+  },
+  {
+    "niveau": "NOMINALE",
+    "codeMission": "DESINC",
+    "competencesMissions": [
+      "CA DESINC",
+      "EQ DESINC",
+      "EQ DESINC"
+    ]
+  },
+  {
+    "niveau": "DEGRADEE",
+    "codeMission": "DESINC",
+    "competencesMissions": [
+      "CA DESINC",
+      "EQ DESINC"
+    ]
+  },
+  {
+    "niveau": "NOMINALE",
+    "codeMission": "DESINC LOURD",
+    "competencesMissions": [
+      "CA DESINC LOURD",
+      "EQ DESINC LOURD",
+      "EQ DESINC LOURD"
+    ]
+  },
+  {
+    "niveau": "DEGRADEE",
+    "codeMission": "DESINC LOURD",
+    "competencesMissions": [
+      "CA DESINC LOURD",
+      "EQ DESINC LOURD"
+    ]
+  },
+  {
+    "niveau": "NOMINALE",
+    "codeMission": "DRONE",
+    "competencesMissions": [
+      "TELEPILOTE"
+    ]
+  },
+  {
+    "niveau": "NOMINALE",
+    "codeMission": "EAU FDF",
+    "competencesMissions": [
+      "CA EAU FDF",
+      "EQ EAU FDF",
+      "EQ EAU FDF",
+      "EQ EAU FDF"
+    ]
+  },
+  {
+    "niveau": "DEGRADEE",
+    "codeMission": "EAU FDF",
+    "competencesMissions": [
+      "CA EAU FDF",
+      "EQ EAU FDF"
+    ]
+  },
+  {
+    "niveau": "NOMINALE",
+    "codeMission": "EAU GC",
+    "competencesMissions": [
+      "CA EAU GC",
+      "EQ EAU GC",
+      "EQ EAU GC"
+    ]
+  },
+  {
+    "niveau": "DEGRADEE",
+    "codeMission": "EAU GC",
+    "competencesMissions": [
+      "CA EAU GC",
+      "EQ EAU GC"
+    ]
+  },
+  {
+    "niveau": "NOMINALE",
+    "codeMission": "EAU TGC",
+    "competencesMissions": [
+      "CA EAU TGC",
+      "EQ EAU TGC"
+    ]
+  },
+  {
+    "niveau": "NOMINALE",
+    "codeMission": "ECL",
+    "competencesMissions": [
+      "CA ECL",
+      "EQ ECL",
+      "EQ ECL"
+    ]
+  },
+  {
+    "niveau": "DEGRADEE",
+    "codeMission": "ECL",
+    "competencesMissions": [
+      "CA ECL",
+      "EQ ECL"
+    ]
+  },
+  {
+    "niveau": "NOMINALE",
+    "codeMission": "EVAC",
+    "competencesMissions": [
+      "CA SUAP",
+      "EQ SUAP",
+      "EQ SUAP"
+    ]
+  },
+  {
+    "niveau": "DEGRADEE",
+    "codeMission": "EVAC",
+    "competencesMissions": [
+      "CA SUAP",
+      "EQ SUAP"
+    ]
+  },
+  {
+    "niveau": "NOMINALE",
+    "codeMission": "EVAC AERO",
+    "competencesMissions": [
+      "SSH"
+    ]
+  },
+  {
+    "niveau": "NOMINALE",
+    "codeMission": "EVAL SD",
+    "competencesMissions": [
+      "SDE3"
+    ]
+  },
+  {
+    "niveau": "DEGRADEE",
+    "codeMission": "EVAL SD",
+    "competencesMissions": [
+      "SDE2"
+    ]
+  },
+  {
+    "niveau": "NOMINALE",
+    "codeMission": "EXTRAC",
+    "competencesMissions": [
+      "CA EXTRAC",
+      "EQ EXTRAC",
+      "EQ EXTRAC",
+      "EQ EXTRAC",
+      "EQ EXTRAC",
+      "EQ EXTRAC"
+    ]
+  },
+  {
+    "niveau": "DEGRADEE",
+    "codeMission": "EXTRAC",
+    "competencesMissions": [
+      "EQ EXTRAC",
+      "EQ EXTRAC",
+      "EQ EXTRAC",
+      "EQ EXTRAC",
+      "EQ EXTRAC"
+    ]
+  },
+  {
+    "niveau": "NOMINALE",
+    "codeMission": "FDF",
+    "competencesMissions": [
+      "FDF2",
+      "FDF1",
+      "FDF1",
+      "FDF1"
+    ]
+  },
+  {
+    "niveau": "DEGRADEE",
+    "codeMission": "FDF",
+    "competencesMissions": [
+      "FDF2",
+      "FDF1",
+      "FDF1"
+    ]
+  },
+  {
+    "niveau": "NOMINALE",
+    "codeMission": "FEN",
+    "competencesMissions": [
+      "CA INC",
+      "EQ INC",
+      "CE INC",
+      "EQ INC"
+    ]
+  },
+  {
+    "niveau": "DEGRADEE",
+    "codeMission": "FEN",
+    "competencesMissions": [
+      "CA INC",
+      "EQ INC",
+      "EQ INC"
+    ]
+  },
+  {
+    "niveau": "NOMINALE",
+    "codeMission": "IMP",
+    "competencesMissions": [
+      "IMP3",
+      "IMP2"
+    ]
+  },
+  {
+    "niveau": "DEGRADEE",
+    "codeMission": "IMP",
+    "competencesMissions": []
+  },
+  {
+    "niveau": "NOMINALE",
+    "codeMission": "INC",
+    "competencesMissions": [
+      "CA INC",
+      "EQ INC",
+      "CE INC",
+      "CE INC",
+      "EQ INC",
+      "EQ INC"
+    ]
+  },
+  {
+    "niveau": "DEGRADEE",
+    "codeMission": "INC",
+    "competencesMissions": [
+      "CA INC",
+      "EQ INC",
+      "CE INC",
+      "EQ INC"
+    ]
+  },
+  {
+    "niveau": "NOMINALE",
+    "codeMission": "INC DIM",
+    "competencesMissions": [
+      "CA INC DIM",
+      "EQ INC DIM",
+      "EQ INC DIM"
+    ]
+  },
+  {
+    "niveau": "DEGRADEE",
+    "codeMission": "INC DIM",
+    "competencesMissions": [
+      "CA INC DIM",
+      "EQ INC DIM"
+    ]
+  },
+  {
+    "niveau": "NOMINALE",
+    "codeMission": "INC LIF",
+    "competencesMissions": [
+      "CA INC LIF",
+      "EQ INC LIF",
+      "EQ INC LIF"
+    ]
+  },
+  {
+    "niveau": "DEGRADEE",
+    "codeMission": "INC LIF",
+    "competencesMissions": [
+      "CA INC LIF",
+      "EQ INC LIF"
+    ]
+  },
+  {
+    "niveau": "NOMINALE",
+    "codeMission": "INCL",
+    "competencesMissions": [
+      "CA INC",
+      "EQ INC",
+      "CE INC",
+      "EQ INC"
+    ]
+  },
+  {
+    "niveau": "NOMINALE",
+    "codeMission": "INTER CHIM",
+    "competencesMissions": [
+      "RCH2",
+      "RCH1",
+      "RCH1"
+    ]
+  },
+  {
+    "niveau": "DEGRADEE",
+    "codeMission": "INTER CHIM",
+    "competencesMissions": [
+      "RCH2",
+      "RCH1"
+    ]
+  },
+  {
+    "niveau": "NOMINALE",
+    "codeMission": "INTER RAD",
+    "competencesMissions": [
+      "RAD2",
+      "RAD1",
+      "RAD1"
+    ]
+  },
+  {
+    "niveau": "DEGRADEE",
+    "codeMission": "INTER RAD",
+    "competencesMissions": [
+      "RAD2",
+      "RAD1"
+    ]
+  },
+  {
+    "niveau": "NOMINALE",
+    "codeMission": "INTER SD",
+    "competencesMissions": [
+      "SDE2",
+      "SDE1",
+      "SDE1"
+    ]
+  },
+  {
+    "niveau": "DEGRADEE",
+    "codeMission": "INTER SD",
+    "competencesMissions": [
+      "SDE2",
+      "SDE1"
+    ]
+  },
+  {
+    "niveau": "NOMINALE",
+    "codeMission": "LOG",
+    "competencesMissions": [
+      "LOG"
+    ]
+  },
+  {
+    "niveau": "NOMINALE",
+    "codeMission": "MEA INC",
+    "competencesMissions": [
+      "CA MEA INC",
+      "EQ INC",
+      "EQ INC"
+    ]
+  },
+  {
+    "niveau": "DEGRADEE",
+    "codeMission": "MEA INC",
+    "competencesMissions": [
+      "CA MEA INC",
+      "EQ INC"
+    ]
+  },
+  {
+    "niveau": "NOMINALE",
+    "codeMission": "MEA INDUS",
+    "competencesMissions": [
+      "CA MEA INC",
+      "EQ INC",
+      "EQ INC"
+    ]
+  },
+  {
+    "niveau": "DEGRADEE",
+    "codeMission": "MEA INDUS",
+    "competencesMissions": [
+      "CA MEA INC",
+      "EQ INC"
+    ]
+  },
+  {
+    "niveau": "NOMINALE",
+    "codeMission": "MED AERO",
+    "competencesMissions": [
+      "MED AERO"
+    ]
+  },
+  {
+    "niveau": "NOMINALE",
+    "codeMission": "MED TERRE",
+    "competencesMissions": [
+      "MED",
+      "INF",
+      "EQ PARAM"
+    ]
+  },
+  {
+    "niveau": "NOMINALE",
+    "codeMission": "OD",
+    "competencesMissions": [
+      "CA DIV",
+      "EQ DIV",
+      "EQ DIV"
+    ]
+  },
+  {
+    "niveau": "DEGRADEE",
+    "codeMission": "OD",
+    "competencesMissions": [
+      "CA DIV",
+      "EQ DIV"
+    ]
+  },
+  {
+    "niveau": "NOMINALE",
+    "codeMission": "OD CATE",
+    "competencesMissions": [
+      "CA DIV CATE",
+      "EQ DIV",
+      "EQ DIV"
+    ]
+  },
+  {
+    "niveau": "DEGRADEE",
+    "codeMission": "OD CATE",
+    "competencesMissions": [
+      "CA DIV CATE",
+      "EQ DIV"
+    ]
+  },
+  {
+    "niveau": "NOMINALE",
+    "codeMission": "OD HAUTEUR",
+    "competencesMissions": [
+      "CA DIV",
+      "EQ DIV",
+      "EQ DIV"
+    ]
+  },
+  {
+    "niveau": "NOMINALE",
+    "codeMission": "OD HYM",
+    "competencesMissions": [
+      "CA OD HYM",
+      "EQ OD HYM",
+      "EQ OD HYM"
+    ]
+  },
+  {
+    "niveau": "DEGRADEE",
+    "codeMission": "OD HYM",
+    "competencesMissions": [
+      "CA OD HYM",
+      "EQ OD HYM"
+    ]
+  },
+  {
+    "niveau": "NOMINALE",
+    "codeMission": "OD TGH",
+    "competencesMissions": [
+      "CA OD TGH",
+      "EQ OD TGH",
+      "EQ OD TGH"
+    ]
+  },
+  {
+    "niveau": "DEGRADEE",
+    "codeMission": "OD TGH",
+    "competencesMissions": [
+      "CA OD TGH",
+      "EQ OD TGH"
+    ]
+  },
+  {
+    "niveau": "NOMINALE",
+    "codeMission": "PARAM",
+    "competencesMissions": [
+      "INF",
+      "EQ PARAM"
+    ]
+  },
+  {
+    "niveau": "DEGRADEE",
+    "codeMission": "PARAM",
+    "competencesMissions": [
+      "INF"
+    ]
+  },
+  {
+    "niveau": "NOMINALE",
+    "codeMission": "PCCR",
+    "competencesMissions": [
+      "RAD2",
+      "RAD1",
+      "RAD1"
+    ]
+  },
+  {
+    "niveau": "DEGRADEE",
+    "codeMission": "PCCR",
+    "competencesMissions": [
+      "RAD2",
+      "RAD1"
+    ]
+  },
+  {
+    "niveau": "NOMINALE",
+    "codeMission": "POMP",
+    "competencesMissions": [
+      "CA POMP",
+      "CD POMP",
+      "EQ POMP"
+    ]
+  },
+  {
+    "niveau": "DEGRADEE",
+    "codeMission": "POMP",
+    "competencesMissions": [
+      "CA POMP",
+      "CD POMP"
+    ]
+  },
+  {
+    "niveau": "NOMINALE",
+    "codeMission": "PRV NRBC",
+    "competencesMissions": [
+      "RCH2",
+      "RCH1",
+      "RCH1"
+    ]
+  },
+  {
+    "niveau": "DEGRADEE",
+    "codeMission": "PRV NRBC",
+    "competencesMissions": [
+      "RCH2",
+      "RCH1"
+    ]
+  },
+  {
+    "niveau": "NOMINALE",
+    "codeMission": "PS AQUA",
+    "competencesMissions": [
+      "SAL2"
+    ]
+  },
+  {
+    "niveau": "NOMINALE",
+    "codeMission": "PS INC",
+    "competencesMissions": [
+      "CA INC",
+      "EQ INC",
+      "CE INC",
+      "EQ INC"
+    ]
+  },
+  {
+    "niveau": "NOMINALE",
+    "codeMission": "PS SUAP",
+    "competencesMissions": [
+      "EQ SUAP",
+      "EQ SUAP"
+    ]
+  },
+  {
+    "niveau": "NOMINALE",
+    "codeMission": "RAMASSAGE",
+    "competencesMissions": [
+      "CA INC",
+      "EQ INC",
+      "EQ INC",
+      "EQ INC",
+      "EQ INC",
+      "EQ INC"
+    ]
+  },
+  {
+    "niveau": "NOMINALE",
+    "codeMission": "RCCI",
+    "competencesMissions": [
+      "RCCI"
+    ]
+  },
+  {
+    "niveau": "NOMINALE",
+    "codeMission": "RECO AERO",
+    "competencesMissions": [
+      "SSH"
+    ]
+  },
+  {
+    "niveau": "NOMINALE",
+    "codeMission": "RECO AQUA",
+    "competencesMissions": [
+      "CA RECO AQUA",
+      "EQ RECO AQUA",
+      "EQ RECO AQUA"
+    ]
+  },
+  {
+    "niveau": "DEGRADEE",
+    "codeMission": "RECO AQUA",
+    "competencesMissions": [
+      "CA RECO AQUA",
+      "EQ RECO AQUA"
+    ]
+  },
+  {
+    "niveau": "NOMINALE",
+    "codeMission": "RECO CHIM",
+    "competencesMissions": [
+      "RCH2",
+      "RCH1",
+      "RCH1"
+    ]
+  },
+  {
+    "niveau": "DEGRADEE",
+    "codeMission": "RECO CHIM",
+    "competencesMissions": [
+      "RCH2",
+      "RCH1"
+    ]
+  },
+  {
+    "niveau": "NOMINALE",
+    "codeMission": "RECO HC",
+    "competencesMissions": [
+      "CA RECO HC",
+      "EQ RECO HC"
+    ]
+  },
+  {
+    "niveau": "NOMINALE",
+    "codeMission": "RECO O TURB",
+    "competencesMissions": [
+      "CA RECO O TURB",
+      "EQ RECO O TURB",
+      "EQ RECO O TURB"
+    ]
+  },
+  {
+    "niveau": "NOMINALE",
+    "codeMission": "RECO RAD",
+    "competencesMissions": [
+      "RAD2",
+      "RAD1",
+      "RAD1"
+    ]
+  },
+  {
+    "niveau": "DEGRADEE",
+    "codeMission": "RECO RAD",
+    "competencesMissions": [
+      "RAD2",
+      "RAD1"
+    ]
+  },
+  {
+    "niveau": "NOMINALE",
+    "codeMission": "RECO TERRE",
+    "competencesMissions": [
+      "GOC3"
+    ]
+  },
+  {
+    "niveau": "NOMINALE",
+    "codeMission": "RESTAU",
+    "competencesMissions": [
+      "RESTAU"
+    ]
+  },
+  {
+    "niveau": "NOMINALE",
+    "codeMission": "RIP",
+    "competencesMissions": [
+      "EQ RIP",
+      "EQ RIP"
+    ]
+  },
+  {
+    "niveau": "DEGRADEE",
+    "codeMission": "RIP",
+    "competencesMissions": [
+      "EQ RIP"
+    ]
+  },
+  {
+    "niveau": "NOMINALE",
+    "codeMission": "SAN",
+    "competencesMissions": [
+      "SAN2",
+      "SAN1",
+      "SAN1"
+    ]
+  },
+  {
+    "niveau": "DEGRADEE",
+    "codeMission": "SAN",
+    "competencesMissions": [
+      "SAN2",
+      "SAN1"
+    ]
+  },
+  {
+    "niveau": "NOMINALE",
+    "codeMission": "SAP",
+    "competencesMissions": [
+      "CA SUAP",
+      "EQ SUAP",
+      "EQ SUAP"
+    ]
+  },
+  {
+    "niveau": "DEGRADEE",
+    "codeMission": "SAP",
+    "competencesMissions": [
+      "CA SUAP",
+      "EQ SUAP"
+    ]
+  },
+  {
+    "niveau": "NOMINALE",
+    "codeMission": "SIC",
+    "competencesMissions": [
+      "SIC"
+    ]
+  },
+  {
+    "niveau": "NOMINALE",
+    "codeMission": "SIGN URG",
+    "competencesMissions": [
+      "CA SIGN URG",
+      "EQ SIGN URG",
+      "EQ SIGN URG"
+    ]
+  },
+  {
+    "niveau": "DEGRADEE",
+    "codeMission": "SIGN URG",
+    "competencesMissions": [
+      "CA SIGN URG",
+      "EQ SIGN URG"
+    ]
+  },
+  {
+    "niveau": "NOMINALE",
+    "codeMission": "SOUTIEN HOM",
+    "competencesMissions": [
+      "CA SOUTIEN HOM",
+      "EQ SOUTIEN HOM",
+      "EQ SOUTIEN HOM"
+    ]
+  },
+  {
+    "niveau": "DEGRADEE",
+    "codeMission": "SOUTIEN HOM",
+    "competencesMissions": [
+      "CA SOUTIEN HOM",
+      "EQ SOUTIEN HOM"
+    ]
+  },
+  {
+    "niveau": "NOMINALE",
+    "codeMission": "ST",
+    "competencesMissions": [
+      "ST",
+      "ST"
+    ]
+  },
+  {
+    "niveau": "DEGRADEE",
+    "codeMission": "ST",
+    "competencesMissions": [
+      "ST"
+    ]
+  },
+  {
+    "niveau": "NOMINALE",
+    "codeMission": "SUAP",
+    "competencesMissions": [
+      "CA SUAP",
+      "EQ SUAP",
+      "EQ SUAP"
+    ]
+  },
+  {
+    "niveau": "NOMINALE",
+    "codeMission": "SUBAQUA",
+    "competencesMissions": [
+      "SAL2",
+      "SAL1",
+      "SAL1"
+    ]
+  },
+  {
+    "niveau": "DEGRADEE",
+    "codeMission": "SUBAQUA",
+    "competencesMissions": [
+      "SAL2",
+      "SAL1"
+    ]
+  },
+  {
+    "niveau": "NOMINALE",
+    "codeMission": "SUBAQUASL",
+    "competencesMissions": [
+      "SAL NL",
+      "SAL NL",
+      "SAL NL"
+    ]
+  },
+  {
+    "niveau": "DEGRADEE",
+    "codeMission": "SUBAQUASL",
+    "competencesMissions": [
+      "SAL NL",
+      "SAL NL"
+    ]
+  },
+  {
+    "niveau": "NOMINALE",
+    "codeMission": "TRANSP TERRE",
+    "competencesMissions": []
+  },
+  {
+    "niveau": "DEGRADEE",
+    "codeMission": "TRANSP TERRE",
+    "competencesMissions": []
+  },
+  {
+    "niveau": "NOMINALE",
+    "codeMission": "TRI PRV",
+    "competencesMissions": [
+      "CA TRI PRV",
+      "EQ TRI PRV",
+      "EQ TRI PRV"
+    ]
+  },
+  {
+    "niveau": "DEGRADEE",
+    "codeMission": "TRI PRV",
+    "competencesMissions": [
+      "CA TRI PRV",
+      "EQ TRI PRV"
+    ]
+  },
+  {
+    "niveau": "NOMINALE",
+    "codeMission": "TRONCONNAGE",
+    "competencesMissions": [
+      "LTB2",
+      "LTB1",
+      "LTB1"
+    ]
+  },
+  {
+    "niveau": "DEGRADEE",
+    "codeMission": "TRONCONNAGE",
+    "competencesMissions": [
+      "LTB2",
+      "LTB1"
+    ]
+  },
+  {
+    "niveau": "NOMINALE",
+    "codeMission": "VENTIL",
+    "competencesMissions": [
+      "CA VENTIL",
+      "EQ VENTIL",
+      "EQ VENTIL"
+    ]
+  },
+  {
+    "niveau": "DEGRADEE",
+    "codeMission": "VENTIL",
+    "competencesMissions": [
+      "CA VENTIL",
+      "EQ VENTIL"
+    ]
+  }
+]
